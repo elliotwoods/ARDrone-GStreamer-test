@@ -1,0 +1,998 @@
+y4menc:  y4menc: YUV4MPEG video encoder
+winscreencap:  dx9screencapsrc: DirectX 9 screen capture source
+winscreencap:  gdiscreencapsrc: GDI screen capture source
+winks:  ksvideosrc: KsVideoSrc
+wininet:  wininetsrc: Windows Network Source
+wavparse:  wavparse: WAV audio demuxer
+wavpack:  wavpackenc: Wavpack audio encoder
+wavpack:  wavpackdec: Wavpack audio decoder
+wavpack:  wavpackparse: Wavpack parser
+waveform:  waveformsink: WaveForm Audio Sink
+wavenc:  wavenc: WAV audio muxer
+wasapi:  wasapisink: WasapiSrc
+wasapi:  wasapisrc: WasapiSrc
+vorbis:  vorbistag: VorbisTag
+vorbis:  vorbisparse: VorbisParse
+vorbis:  vorbisdec: Vorbis audio decoder
+vorbis:  vorbisenc: Vorbis audio encoder
+volume:  volume: Volume
+vmnc:  vmncdec: VMnc video decoder
+videotestsrc:  videotestsrc: Video test source
+videosignal:  videomark: Video marker
+videosignal:  videodetect: Video detecter
+videosignal:  videoanalyse: Video analyser
+videoscale:  videoscale: Video scaler
+videorate:  videorate: Video rate adjuster
+videomixer:  videomixer: Video mixer
+videomeasure:  measurecollector: Video measure collector
+videomeasure:  ssim: SSim
+videoflip:  videoflip: Video flipper
+videocrop:  aspectratiocrop: aspectratiocrop
+videocrop:  videocrop: Crop
+videobox:  videobox: Video box filter
+videobalance:  videobalance: Video balance
+valve:  valve: Valve element
+udp:  udpsrc: UDP packet receiver
+udp:  dynudpsink: UDP packet sender
+udp:  multiudpsink: UDP packet sender
+udp:  udpsink: UDP packet sender
+typefindfunctions: image/vnd.adobe.photoshop: psd
+typefindfunctions: application/octet-stream: DS_Store
+typefindfunctions: application/msword: doc
+typefindfunctions: application/pdf: pdf
+typefindfunctions: audio/x-kss: kss
+typefindfunctions: audio/x-sap: sap
+typefindfunctions: audio/x-vgm: vgm
+typefindfunctions: audio/x-gbs: gbs
+typefindfunctions: audio/x-ay: ay
+typefindfunctions: audio/x-gym: gym
+typefindfunctions: audio/x-nsf: nsf
+typefindfunctions: video/vivo: viv
+typefindfunctions: application/x-mmsh: no extensions
+typefindfunctions: multipart/x-mixed-replace: no extensions
+typefindfunctions: video/x-dirac: no extensions
+typefindfunctions: application/x-ms-dos-executable: cpl, msstyles, scr, sys, ocx, exe, dll
+typefindfunctions: application/x-ar: a
+typefindfunctions: application/x-tar: tar
+typefindfunctions: application/x-rar: rar
+typefindfunctions: image/svg+xml: svg
+typefindfunctions: application/postscript: ps
+typefindfunctions: audio/x-wavpack-correction: wvc
+typefindfunctions: audio/x-wavpack: wvp, wv
+typefindfunctions: audio/x-spc: spc
+typefindfunctions: adts_mpeg_stream: aac
+typefindfunctions: application/x-executable: no extensions
+typefindfunctions: text/x-cmml: no extensions
+typefindfunctions: application/x-ogg-skeleton: no extensions
+typefindfunctions: audio/x-celt: no extensions
+typefindfunctions: audio/x-speex: no extensions
+typefindfunctions: application/x-ogm-text: no extensions
+typefindfunctions: application/x-ogm-audio: no extensions
+typefindfunctions: application/x-ogm-video: no extensions
+typefindfunctions: video/x-theora: no extensions
+typefindfunctions: audio/x-vorbis: no extensions
+typefindfunctions: audio/x-flac: flac
+typefindfunctions: subtitle/x-kate: no extensions
+typefindfunctions: application/x-compress: Z
+typefindfunctions: application/zip: zip
+typefindfunctions: application/x-gzip: gz
+typefindfunctions: application/x-bzip: bz2
+typefindfunctions: image/x-sun-raster: ras
+typefindfunctions: image/x-xpixmap: xpm
+typefindfunctions: image/x-jng: jng
+typefindfunctions: video/x-mng: mng
+typefindfunctions: image/x-xcf: xcf
+typefindfunctions: audio/x-sid: sid
+typefindfunctions: audio/iLBC-sh: ilbc
+typefindfunctions: audio/x-amr-wb-sh: amr
+typefindfunctions: audio/x-amr-nb-sh: amr
+typefindfunctions: video/x-dv: dif, dv
+typefindfunctions: video/x-mve: mve
+typefindfunctions: application/mxf: mxf
+typefindfunctions: video/x-matroska: mka, mkv
+typefindfunctions: image/x-portable-pixmap: pbm, pgm, ppm, pnm
+typefindfunctions: image/tiff: tiff, tif
+typefindfunctions: image/bmp: bmp
+typefindfunctions: image/png: png
+typefindfunctions: image/gif: gif
+typefindfunctions: image/jpeg: jpeg, jpe, jpg
+typefindfunctions: application/x-ape: ape
+typefindfunctions: audio/x-shorten: shn
+typefindfunctions: audio/x-w64: w64
+typefindfunctions: audio/x-ircam: sf
+typefindfunctions: audio/x-sds: sds
+typefindfunctions: audio/x-voc: voc
+typefindfunctions: audio/x-nist: nist
+typefindfunctions: audio/x-paris: paf
+typefindfunctions: audio/x-svx: svx, iff
+typefindfunctions: audio/x-aiff: aifc, aif, aiff
+typefindfunctions: audio/x-wav: wav
+typefindfunctions: application/xml: xml
+typefindfunctions: application/smil: smil
+typefindfunctions: application/sdp: sdp
+typefindfunctions: text/uri-list: ram
+typefindfunctions: text/plain: txt
+typefindfunctions: video/x-flv: flv
+typefindfunctions: application/x-shockwave-flash: swfl, swf
+typefindfunctions: application/x-pn-realaudio: rmvb, rm, ram, ra
+typefindfunctions: application/vnd.rn-realmedia: rmvb, rm, ram, ra
+typefindfunctions: text/html: html, htm
+typefindfunctions: video/mj2: mj2
+typefindfunctions: image/jp2: jp2
+typefindfunctions: image/x-quicktime: qti, qtif, qif
+typefindfunctions: video/quicktime: mov
+typefindfunctions: application/x-3gp: 3gp
+typefindfunctions: audio/x-m4a: m4a
+typefindfunctions: video/x-nuv: nuv
+typefindfunctions: video/x-h264: 264, x264, h264
+typefindfunctions: video/mpeg4: m4v
+typefindfunctions: video/mpeg-elementary: mpg, mpeg, mpv
+typefindfunctions: application/ogg: ogm, ogg, anx
+typefindfunctions: video/mpegts: ts
+typefindfunctions: video/mpeg-sys: mpg, mpeg, mpe
+typefindfunctions: audio/x-gsm: gsm
+typefindfunctions: audio/x-ac3: ac3
+typefindfunctions: audio/mpeg: mpga, mp1, mp2, mp3
+typefindfunctions: audio/x-mod: xm, ult, stx, stm, s3m, sam, okt, mtm, mod, med, it, imf, far, gdm, dsm, amf, 669
+typefindfunctions: audio/x-ttafile: tta
+typefindfunctions: application/x-apetag: wv, mpc, ape
+typefindfunctions: application/x-id3v1: tta, flac, ogg, mpga, mp1, mp2, mp3
+typefindfunctions: application/x-id3v2: tta, flac, ogg, mpga, mp1, mp2, mp3
+typefindfunctions: video/x-fli: fli, flc
+typefindfunctions: audio/mobile-xmf: mxmf
+typefindfunctions: audio/riff-midi: midi, mid
+typefindfunctions: audio/midi: midi, mid
+typefindfunctions: audio/x-imelody: imelody, ime, imy
+typefindfunctions: video/x-vcd: dat
+typefindfunctions: video/x-cdxa: dat
+typefindfunctions: audio/qcelp: qcp
+typefindfunctions: video/x-msvideo: avi
+typefindfunctions: audio/x-au: snd, au
+typefindfunctions: audio/x-musepack: mp+, mpp, mpc
+typefindfunctions: video/x-ms-asf: wmv, wma, wm, asf
+tta:  ttadec: TTA audio decoder
+tta:  ttaparse: TTA file parser
+theora:  theoraparse: Theora video parser
+theora:  theoraenc: Theora video encoder
+theora:  theoradec: Theora video decoder
+synaesthesia:  synaesthesia: Synaesthesia
+subparse:  ssaparse: SSA Subtitle Parser
+subparse:  subparse: Subtitle parser
+subparse: subparse_typefind: dks, txt, smi, mdvd, mpsub, sub, srt
+subenc:  srtenc: Srt encoder
+stereo:  stereo: Stereo effect
+speed:  speed: Speed
+spectrum:  spectrum: Spectrum analyzer
+soup:  souphttpsrc: HTTP client source
+smpte:  smptealpha: SMPTE transitions
+smpte:  smpte: SMPTE transitions
+gstsiren:  sirenenc: Siren Encoder element
+gstsiren:  sirendec: Siren Decoder element
+shapewipe:  shapewipe: Shape Wipe transition filter
+selector:  output-selector: Output selector
+selector:  input-selector: Input selector
+sdp:  sdpdemux: SDP session setup
+sdl:  sdlaudiosink: SDL audio sink
+sdl:  sdlvideosink: SDL video sink
+schro:  schroenc: Dirac Encoder
+schro:  schroparse: Dirac Parser
+schro:  schrodec: Dirac Decoder
+scaletempo:  scaletempo: Scaletempo
+rtsp:  rtpdec: RTP Decoder
+rtsp:  rtspsrc: RTSP packet receiver
+rtppayloads:  rtpcndepay: RTP Confort Noise Depayloader
+rtppayloads:  rtpcnpay: RTP Confort Noise Payloader
+rtppayloads:  msgsmdepayloader: MSGSM RTP Depayloader
+rtppayloads:  msgsmpayloader: RTP MSGSM Audio Payloader
+rtpmux:  rtpdtmfmux: RTP muxer
+rtpmux:  rtpmux: RTP muxer
+gstrtpmanager:  gstrtpssrcdemux: RTP SSRC Demux
+gstrtpmanager:  gstrtpsession: RTP Session
+gstrtpmanager:  gstrtpptdemux: RTP Demux
+gstrtpmanager:  gstrtpjitterbuffer: RTP packet jitter-buffer
+gstrtpmanager:  gstrtpbin: RTP Bin
+rtpjitterbuffer:  rtpjitterbuffer: RTP packet jitter-buffer
+rtpdemux:  rtpdemux: RTP Demux
+rtp:  rtpvrawpay: RTP Raw Video payloader
+rtp:  rtpvrawdepay: RTP Raw Video depayloader
+rtp:  rtpvorbispay: RTP Vorbis depayloader
+rtp:  rtpvorbisdepay: RTP Vorbis depayloader
+rtp:  rtptheorapay: RTP Theora payloader
+rtp:  rtptheoradepay: RTP Theora depayloader
+rtp:  rtpsv3vdepay: RTP SVQ3 depayloader
+rtp:  rtpspeexdepay: RTP Speex depayloader
+rtp:  rtpspeexpay: RTP Speex payloader
+rtp:  rtpsirendepay: RTP Siren packet depayloader
+rtp:  rtpsirenpay: RTP Payloader for Siren Audio
+rtp:  rtpqdm2depay: RTP QDM2 depayloader
+rtp:  rtpmp4gpay: RTP MPEG4 ES payloader
+rtp:  rtpmp4gdepay: RTP MPEG4 ES depayloader
+rtp:  rtpmp4adepay: RTP MPEG4 audio depayloader
+rtp:  rtpmp4apay: RTP MPEG4 audio payloader
+rtp:  rtpmp4vdepay: RTP MPEG4 video depayloader
+rtp:  rtpmp4vpay: RTP MPEG4 Video payloader
+rtp:  rtpmp2tpay: RTP MPEG2 Transport Stream payloader
+rtp:  rtpmp2tdepay: RTP MPEG Transport Stream depayloader
+rtp:  rtpmp1sdepay: RTP MPEG1 System Stream depayloader
+rtp:  asteriskh263: RTP Asterisk H263 depayloader
+rtp:  rtpL16depay: RTP audio depayloader
+rtp:  rtpL16pay: RTP audio payloader
+rtp:  rtpjpegpay: RTP JPEG payloader
+rtp:  rtpjpegdepay: RTP JPEG depayloader
+rtp:  rtpj2kpay: RTP JPEG 2000 payloader
+rtp:  rtpj2kdepay: RTP JPEG 2000 depayloader
+rtp:  rtph264pay: RTP H264 payloader
+rtp:  rtph264depay: RTP H264 depayloader
+rtp:  rtph263pay: RTP H263 packet payloader
+rtp:  rtph263depay: RTP H263 depayloader
+rtp:  rtph263pdepay: RTP H263 depayloader
+rtp:  rtph263ppay: RTP H263 payloader
+rtp:  rtpmpvpay: RTP MPEG2 ES video payloader
+rtp:  rtpmpvdepay: RTP MPEG video depayloader
+rtp:  rtpmpapay: RTP MPEG audio payloader
+rtp:  rtpmpadepay: RTP MPEG audio depayloader
+rtp:  rtppcmapay: RTP PCMA payloader
+rtp:  rtppcmupay: RTP PCMU payloader
+rtp:  rtppcmudepay: RTP PCMU depayloader
+rtp:  rtppcmadepay: RTP PCMA depayloader
+rtp:  rtpamrpay: RTP AMR payloader
+rtp:  rtpamrdepay: RTP AMR depayloader
+rtp:  rtpgsmpay: RTP GSM payloader
+rtp:  rtpgsmdepay: RTP GSM depayloader
+rtp:  rtpg729pay: RTP G.729 payloader
+rtp:  rtpg729depay: RTP G.729 depayloader
+rtp:  rtpg726pay: RTP G.726 payloader
+rtp:  rtpg726depay: RTP G.726 depayloader
+rtp:  rtpg723pay: RTP G.723 payloader
+rtp:  rtpg723depay: RTP G.723 depayloader
+rtp:  rtpilbcdepay: RTP iLBC depayloader
+rtp:  rtpilbcpay: RTP iLBC Payloader
+rtp:  rtpdvpay: RTP DV Payloader
+rtp:  rtpdvdepay: RTP DV Depayloader
+rtp:  rtpceltpay: RTP CELT payloader
+rtp:  rtpceltdepay: RTP CELT depayloader
+rtp:  rtpbvpay: RTP BV Payloader
+rtp:  rtpbvdepay: RTP BroadcomVoice depayloader
+rtp:  rtpac3depay: RTP AC3 depayloader
+rtp:  rtpdepay: Dummy RTP session manager
+rsvg:  rsvgdec: SVG image decoder
+replaygain:  rgvolume: ReplayGain volume
+replaygain:  rglimiter: ReplayGain limiter
+replaygain:  rganalysis: ReplayGain analysis
+real:  realaudiodec: RealAudio decoder
+real:  realvideodec: RealVideo decoder
+rawparse:  audioparse: Audio Parse
+rawparse:  videoparse: Video Parse
+qtmux:  qtmoovrecover: QT Moov Recover
+qtmux:  mj2mux: MJ2 Muxer
+qtmux:  gppmux: 3GPP Muxer
+qtmux:  mp4mux: MP4 Muxer
+qtmux:  qtmux: QuickTime Muxer
+quicktime:  rtpxqtdepay: RTP packet depayloader
+quicktime:  qtdemux: QuickTime demuxer
+pnm:  pnmenc: PNM image encoder
+pnm:  pnmdec: PNM image decoder
+png:  pngenc: PNG image encoder
+png:  pngdec: PNG image decoder
+playback:  subtitleoverlay: Subtitle Overlay
+playback:  playsink: Player Sink
+playback:  playbin2: Player Bin 2
+playback:  playbin: Player Bin
+pcapparse:  pcapparse: PCapParse
+pango:  textrender: Text renderer
+pango:  clockoverlay: Clock overlay
+pango:  timeoverlay: Time overlay
+pango:  textoverlay: Text overlay
+opengl:  glcolorscale: OpenGL color scale
+opengl:  gldeinterlace: OpenGL deinterlacing filter
+opengl:  glfilterapp: OpenGL application filter
+opengl:  glfilterglass: OpenGL glass filter
+opengl:  glfilterlaplacian: OpenGL laplacian filter
+opengl:  glfiltersobel: Gstreamer OpenGL Sobel
+opengl:  glfilterblur: Gstreamer OpenGL Blur
+opengl:  gleffects: Gstreamer OpenGL Effects
+opengl:  glbumper: OpenGL bumper filter
+opengl:  gldifferencematte: Gstreamer OpenGL DifferenceMatte
+opengl:  gloverlay: Gstreamer OpenGL Overlay
+opengl:  gltestsrc: Video test source
+opengl:  glfiltercube: OpenGL cube filter
+opengl:  glimagesink: OpenGL video sink
+opengl:  gldownload: OpenGL video maker
+opengl:  glupload: OpenGL upload
+ogg:  oggaviparse: Ogg AVI parser
+ogg:  oggparse: Ogg parser
+ogg:  ogmtextparse: OGM text stream parser
+ogg:  ogmvideoparse: OGM video stream parser
+ogg:  ogmaudioparse: OGM audio stream parser
+ogg:  oggmux: Ogg muxer
+ogg:  oggdemux: Ogg demuxer
+nuvdemux:  nuvdemux: Nuv demuxer
+nice:  nicesink: ICE sink
+nice:  nicesrc: ICE source
+netsim:  netsim: Network Simulator
+neon:  neonhttpsrc: HTTP client source
+navigationtest:  navigationtest: Video navigation test
+mxf:  mxfmux: MXF muxer
+mxf:  mxfdemux: MXF Demuxer
+mve:  mvemux: MVE Multiplexer
+mve:  mvedemux: MVE Demuxer
+multipart:  multipartmux: Multipart muxer
+multipart:  multipartdemux: Multipart demuxer
+multifile:  multifilesink: Multi-File Sink
+multifile:  multifilesrc: Multi-File Source
+mulaw:  mulawdec: Mu Law audio decoder
+mulaw:  mulawenc: Mu Law audio encoder
+mpegvideoparse:  mpegvideoparse: MPEG video elementary stream parser
+mpegtsmux:  mpegtsmux: MPEG Transport Stream Muxer
+mpegstream:  dvddemux: DVD Demuxer
+mpegstream:  mpegdemux: MPEG Demuxer
+mpegstream:  mpegparse: MPEG System Parser
+mpegpsmux:  mpegpsmux: MPEG Program Stream Muxer
+mpegdemux2:  mpegtsparse: MPEG transport stream parser
+mpegdemux2:  mpegtsdemux: The Fluendo MPEG Transport stream demuxer
+mpegdemux2:  mpegpsdemux: The Fluendo MPEG Program Stream Demuxer
+mpegaudioparse:  mp3parse: MPEG1 Audio Parser
+mpegaudioparse:  xingmux: MP3 Xing muxer
+mpeg4videoparse:  mpeg4videoparse: MPEG 4 video elementary stream parser
+monoscope:  monoscope: Monoscope
+mms:  mmssrc: MMS streaming source
+matroska:  matroskamux: Matroska muxer
+matroska:  matroskademux: Matroska demuxer
+liveadder:  liveadder: Live Adder element
+level:  level: Level
+legacyresample:  legacyresample: Audio scaler
+jpegformat:  jifmux: JPEG stream parser
+jpegformat:  jpegparse: JPEG stream parser
+jpeg:  smokedec: Smoke video decoder
+jpeg:  smokeenc: Smoke video encoder
+jpeg:  jpegdec: JPEG image decoder
+jpeg:  jpegenc: JPEG image encoder
+interleave:  deinterleave: Audio deinterleaver
+interleave:  interleave: Audio interleaver
+iec958:  ac3iec958: AC3 to IEC958 filter
+id3demux:  id3demux: ID3 tag demuxer
+icydemux:  icydemux: ICY tag demuxer
+hdvparse:  hdvparse: HDVParser
+h264parse:  h264parse: H264Parse
+gio:  giostreamsrc: GIO stream source
+gio:  giostreamsink: GIO stream sink
+gio:  giosrc: GIO source
+gio:  giosink: GIO sink
+gdp:  gdppay: GDP Payloader
+gdp:  gdpdepay: GDP Depayloader
+gdkpixbuf:  gdkpixbufscale: GdkPixbuf image scaler
+gdkpixbuf:  gdkpixbufsink: GdkPixbuf sink
+gdkpixbuf:  gdkpixbufdec: GdkPixbuf image decoder
+gamma:  gamma: Video gamma correction
+freeze:  freeze: Stream freezer
+flxdec:  flxdec: FLX audio decoder
+flv:  flvmux: FLV muxer
+flv:  flvdemux: FLV Demuxer
+flac:  flactag: FLAC tagger
+flac:  flacdec: FLAC audio decoder
+flac:  flacenc: FLAC audio encoder
+ffvideoscale:  ffvideoscale: FFMPEG Scale element
+ffmpegcolorspace:  ffmpegcolorspace: FFMPEG Colorspace converter
+ffmpeg:  ffaudioresample: FFMPEG Audio resampling element
+ffmpeg:  ffdeinterlace: FFMPEG Deinterlace element
+ffmpeg:  ffmux_yuv4mpegpipe: FFmpeg YUV4MPEG pipe format muxer
+ffmpeg:  ffmux_wav: FFmpeg WAV format muxer
+ffmpeg:  ffmux_voc: FFmpeg Creative Voice file format muxer
+ffmpeg:  ffmux_rcv: FFmpeg VC-1 test bitstream muxer
+ffmpeg:  ffmux_truehd: FFmpeg raw TrueHD muxer
+ffmpeg:  ffmux_3gp: FFmpeg 3GP format muxer
+ffmpeg:  ffmux_3g2: FFmpeg 3GP2 format muxer
+ffmpeg:  ffmux_swf: FFmpeg Flash format muxer
+ffmpeg:  ffmux_spdif: FFmpeg IEC958 - S/PDIF (IEC-61937) muxer
+ffmpeg:  ffmux_sox: FFmpeg SoX native format muxer
+ffmpeg:  ffmux_rtsp: FFmpeg RTSP output format muxer
+ffmpeg:  ffmux_rtp: FFmpeg RTP output format muxer
+ffmpeg:  ffmux_RoQ: FFmpeg raw id RoQ format muxer
+ffmpeg:  ffmux_rm: FFmpeg RealMedia format muxer
+ffmpeg:  ffmux_psp: FFmpeg PSP MP4 format muxer
+ffmpeg:  ffmux_ogg: FFmpeg Ogg muxer
+ffmpeg:  ffmux_nut: FFmpeg NUT format muxer
+ffmpeg:  ffmux_mxf_d10: FFmpeg Material eXchange Format, D-10 Mapping muxer
+ffmpeg:  ffmux_mxf: FFmpeg Material eXchange Format muxer
+ffmpeg:  ffmux_mpjpeg: FFmpeg MIME multipart JPEG format muxer
+ffmpeg:  ffmux_mpegts: FFmpeg MPEG-2 transport stream format muxer
+ffmpeg:  ffmux_vob: FFmpeg MPEG-2 PS format (VOB) muxer
+ffmpeg:  ffmux_mpeg2video: FFmpeg raw MPEG-2 video muxer
+ffmpeg:  ffmux_svcd: FFmpeg MPEG-2 PS format (VOB) muxer
+ffmpeg:  ffmux_dvd: FFmpeg MPEG-2 PS format (DVD VOB) muxer
+ffmpeg:  ffmux_mpeg1video: FFmpeg raw MPEG-1 video muxer
+ffmpeg:  ffmux_vcd: FFmpeg MPEG-1 System format (VCD) muxer
+ffmpeg:  ffmux_mpeg: FFmpeg MPEG-1 System format muxer
+ffmpeg:  ffmux_mp4: FFmpeg MP4 format muxer
+ffmpeg:  ffmux_mp3: FFmpeg MPEG audio layer 3 muxer
+ffmpeg:  ffmux_mp2: FFmpeg MPEG audio layer 2 muxer
+ffmpeg:  ffmux_mov: FFmpeg MOV format muxer
+ffmpeg:  ffmux_mmf: FFmpeg Yamaha SMAF muxer
+ffmpeg:  ffmux_mlp: FFmpeg raw MLP muxer
+ffmpeg:  ffmux_mjpeg: FFmpeg raw MJPEG video muxer
+ffmpeg:  ffmux_matroska: FFmpeg Matroska file format muxer
+ffmpeg:  ffmux_m4v: FFmpeg raw MPEG-4 video format muxer
+ffmpeg:  ffmux_ipod: FFmpeg iPod H.264 MP4 format muxer
+ffmpeg:  ffmux_gxf: FFmpeg GXF format muxer
+ffmpeg:  ffmux_flv: FFmpeg FLV format muxer
+ffmpeg:  ffmux_flac: FFmpeg raw FLAC muxer
+ffmpeg:  ffmux_filmstrip: FFmpeg Adobe Filmstrip muxer
+ffmpeg:  ffmux_ffm: FFmpeg FFM (FFserver live feed) format muxer
+ffmpeg:  ffmux_eac3: FFmpeg raw E-AC-3 muxer
+ffmpeg:  ffmux_dv: FFmpeg DV video format muxer
+ffmpeg:  ffmux_dts: FFmpeg raw DTS muxer
+ffmpeg:  ffmux_dnxhd: FFmpeg raw DNxHD (SMPTE VC-3) muxer
+ffmpeg:  ffmux_dirac: FFmpeg raw Dirac muxer
+ffmpeg:  ffmux_daud: FFmpeg D-Cinema audio format muxer
+ffmpeg:  ffmux_avm2: FFmpeg Flash 9 (AVM2) format muxer
+ffmpeg:  ffmux_avi: FFmpeg AVI format muxer
+ffmpeg:  ffmux_au: FFmpeg SUN AU format muxer
+ffmpeg:  ffmux_asf_stream: FFmpeg ASF format muxer
+ffmpeg:  ffmux_asf: FFmpeg ASF format muxer
+ffmpeg:  ffmux_amr: FFmpeg 3GPP AMR file format muxer
+ffmpeg:  ffmux_aiff: FFmpeg Audio IFF muxer
+ffmpeg:  ffmux_adts: FFmpeg ADTS AAC muxer
+ffmpeg:  ffmux_ac3: FFmpeg raw AC-3 muxer
+ffmpeg: fftype_yuv4mpegpipe: y4m
+ffmpeg:  ffdemux_yuv4mpegpipe: FFmpeg YUV4MPEG pipe format demuxer
+ffmpeg: fftype_yop: yop
+ffmpeg:  ffdemux_yop: FFmpeg Psygnosis YOP Format demuxer
+ffmpeg: fftype_xa: no extensions
+ffmpeg:  ffdemux_xa: FFmpeg Maxis XA File Format demuxer
+ffmpeg: fftype_wsvqa: no extensions
+ffmpeg:  ffdemux_wsvqa: FFmpeg Westwood Studios VQA format demuxer
+ffmpeg: fftype_wsaud: no extensions
+ffmpeg:  ffdemux_wsaud: FFmpeg Westwood Studios audio format demuxer
+ffmpeg: fftype_wc3movie: no extensions
+ffmpeg:  ffdemux_wc3movie: FFmpeg Wing Commander III movie format demuxer
+ffmpeg:  ffdemux_wav: FFmpeg WAV format demuxer
+ffmpeg: fftype_w64: no extensions
+ffmpeg:  ffdemux_w64: FFmpeg Sony Wave64 format demuxer
+ffmpeg: fftype_vqf: vqf
+ffmpeg:  ffdemux_vqf: FFmpeg Nippon Telegraph and Telephone Corporation (NTT) TwinVQ demuxer
+ffmpeg:  ffdemux_voc: FFmpeg Creative Voice file format demuxer
+ffmpeg: fftype_vmd: no extensions
+ffmpeg:  ffdemux_vmd: FFmpeg Sierra VMD format demuxer
+ffmpeg:  ffdemux_vc1test: FFmpeg VC-1 test bitstream format demuxer
+ffmpeg: fftype_txd: no extensions
+ffmpeg:  ffdemux_txd: FFmpeg Renderware TeXture Dictionary demuxer
+ffmpeg:  ffdemux_tta: FFmpeg True Audio demuxer
+ffmpeg: fftype_tmv: no extensions
+ffmpeg:  ffdemux_tmv: FFmpeg 8088flex TMV demuxer
+ffmpeg: fftype_tiertexseq: no extensions
+ffmpeg:  ffdemux_tiertexseq: FFmpeg Tiertex Limited SEQ format demuxer
+ffmpeg: fftype_thp: no extensions
+ffmpeg:  ffdemux_thp: FFmpeg THP demuxer
+ffmpeg:  ffdemux_swf: FFmpeg Flash format demuxer
+ffmpeg: fftype_psxstr: no extensions
+ffmpeg:  ffdemux_psxstr: FFmpeg Sony Playstation STR format demuxer
+ffmpeg: fftype_sox: no extensions
+ffmpeg:  ffdemux_sox: FFmpeg SoX native format demuxer
+ffmpeg: fftype_sol: no extensions
+ffmpeg:  ffdemux_sol: FFmpeg Sierra SOL format demuxer
+ffmpeg: fftype_smk: no extensions
+ffmpeg:  ffdemux_smk: FFmpeg Smacker video demuxer
+ffmpeg: fftype_siff: vb,son
+ffmpeg:  ffdemux_siff: FFmpeg Beam Software SIFF demuxer
+ffmpeg: fftype_film_cpk: no extensions
+ffmpeg:  ffdemux_film_cpk: FFmpeg Sega FILM/CPK format demuxer
+ffmpeg: fftype_rpl: no extensions
+ffmpeg:  ffdemux_rpl: FFmpeg RPL/ARMovie format demuxer
+ffmpeg: fftype_RoQ: no extensions
+ffmpeg:  ffdemux_RoQ: FFmpeg id RoQ format demuxer
+ffmpeg:  ffdemux_rm: FFmpeg RealMedia format demuxer
+ffmpeg: fftype_rl2: no extensions
+ffmpeg:  ffdemux_rl2: FFmpeg RL2 format demuxer
+ffmpeg: fftype_r3d: no extensions
+ffmpeg:  ffdemux_r3d: FFmpeg REDCODE R3D format demuxer
+ffmpeg: fftype_qcp: no extensions
+ffmpeg:  ffdemux_qcp: FFmpeg QCP format demuxer
+ffmpeg: fftype_pva: no extensions
+ffmpeg:  ffdemux_pva: FFmpeg TechnoTrend PVA file and stream format demuxer
+ffmpeg: fftype_oma: oma,aa3
+ffmpeg:  ffdemux_oma: FFmpeg Sony OpenMG audio demuxer
+ffmpeg:  ffdemux_ogg: FFmpeg Ogg demuxer
+ffmpeg:  ffdemux_nuv: FFmpeg NuppelVideo format demuxer
+ffmpeg: fftype_nut: nut
+ffmpeg:  ffdemux_nut: FFmpeg NUT format demuxer
+ffmpeg: fftype_nsv: no extensions
+ffmpeg:  ffdemux_nsv: FFmpeg Nullsoft Streaming Video demuxer
+ffmpeg: fftype_nc: v
+ffmpeg:  ffdemux_nc: FFmpeg NC camera feed format demuxer
+ffmpeg:  ffdemux_mxf: FFmpeg Material eXchange Format demuxer
+ffmpeg: fftype_mvi: mvi
+ffmpeg:  ffdemux_mvi: FFmpeg Motion Pixels MVI format demuxer
+ffmpeg: fftype_MTV: no extensions
+ffmpeg:  ffdemux_MTV: FFmpeg MTV format demuxer
+ffmpeg: fftype_msnwctcp: no extensions
+ffmpeg:  ffdemux_msnwctcp: FFmpeg MSN TCP Webcam stream demuxer
+ffmpeg:  ffdemux_mpegtsraw: FFmpeg MPEG-2 raw transport stream format demuxer
+ffmpeg:  ffdemux_mpegts: FFmpeg MPEG-2 transport stream format demuxer
+ffmpeg:  ffdemux_mpeg: FFmpeg MPEG-PS format demuxer
+ffmpeg:  ffdemux_mpc8: FFmpeg Musepack SV8 demuxer
+ffmpeg:  ffdemux_mpc: FFmpeg Musepack demuxer
+ffmpeg:  ffdemux_mp3: FFmpeg MPEG audio layer 2/3 demuxer
+ffmpeg:  ffdemux_mov_mp4_m4a_3gp_3g2_mj2: FFmpeg QuickTime/MPEG-4/Motion JPEG 2000 format demuxer
+ffmpeg: fftype_mmf: no extensions
+ffmpeg:  ffdemux_mmf: FFmpeg Yamaha SMAF demuxer
+ffmpeg: fftype_mm: no extensions
+ffmpeg:  ffdemux_mm: FFmpeg American Laser Games MM format demuxer
+ffmpeg:  ffdemux_matroska: FFmpeg Matroska file format demuxer
+ffmpeg: fftype_lmlm4: no extensions
+ffmpeg:  ffdemux_lmlm4: FFmpeg lmlm4 raw format demuxer
+ffmpeg: fftype_iv8: no extensions
+ffmpeg:  ffdemux_iv8: FFmpeg A format generated by IndigoVision 8000 video server demuxer
+ffmpeg: fftype_ISS: no extensions
+ffmpeg:  ffdemux_ISS: FFmpeg Funcom ISS format demuxer
+ffmpeg: fftype_ipmovie: no extensions
+ffmpeg:  ffdemux_ipmovie: FFmpeg Interplay MVE format demuxer
+ffmpeg: fftype_IFF: no extensions
+ffmpeg:  ffdemux_IFF: FFmpeg IFF format demuxer
+ffmpeg: fftype_idcin: no extensions
+ffmpeg:  ffdemux_idcin: FFmpeg id Cinematic format demuxer
+ffmpeg: fftype_gxf: no extensions
+ffmpeg:  ffdemux_gxf: FFmpeg GXF format demuxer
+ffmpeg: fftype_4xm: no extensions
+ffmpeg:  ffdemux_4xm: FFmpeg 4X Technologies format demuxer
+ffmpeg:  ffdemux_flv: FFmpeg FLV format demuxer
+ffmpeg: fftype_flic: no extensions
+ffmpeg:  ffdemux_flic: FFmpeg FLI/FLC/FLX animation format demuxer
+ffmpeg: fftype_filmstrip: flm
+ffmpeg:  ffdemux_filmstrip: FFmpeg Adobe Filmstrip demuxer
+ffmpeg: fftype_ffm: no extensions
+ffmpeg:  ffdemux_ffm: FFmpeg FFM (FFserver live feed) format demuxer
+ffmpeg: fftype_ea_cdata: cdata
+ffmpeg:  ffdemux_ea_cdata: FFmpeg Electronic Arts cdata demuxer
+ffmpeg: fftype_ea: no extensions
+ffmpeg:  ffdemux_ea: FFmpeg Electronic Arts Multimedia Format demuxer
+ffmpeg: fftype_dxa: no extensions
+ffmpeg:  ffdemux_dxa: FFmpeg DXA demuxer
+ffmpeg:  ffdemux_dv: FFmpeg DV video format demuxer
+ffmpeg: fftype_dsicin: no extensions
+ffmpeg:  ffdemux_dsicin: FFmpeg Delphine Software International CIN format demuxer
+ffmpeg: fftype_daud: 302
+ffmpeg:  ffdemux_daud: FFmpeg D-Cinema audio format demuxer
+ffmpeg: fftype_cdg: cdg
+ffmpeg:  ffdemux_cdg: FFmpeg CD Graphics Format demuxer
+ffmpeg: fftype_caf: no extensions
+ffmpeg:  ffdemux_caf: FFmpeg Apple Core Audio Format demuxer
+ffmpeg: fftype_c93: no extensions
+ffmpeg:  ffdemux_c93: FFmpeg Interplay C93 demuxer
+ffmpeg: fftype_bink: no extensions
+ffmpeg:  ffdemux_bink: FFmpeg Bink demuxer
+ffmpeg: fftype_bfi: no extensions
+ffmpeg:  ffdemux_bfi: FFmpeg Brute Force & Ignorance demuxer
+ffmpeg: fftype_bethsoftvid: no extensions
+ffmpeg:  ffdemux_bethsoftvid: FFmpeg Bethesda Softworks VID format demuxer
+ffmpeg: fftype_avs: avs
+ffmpeg:  ffdemux_avs: FFmpeg AVISynth demuxer
+ffmpeg:  ffdemux_avi: FFmpeg AVI format demuxer
+ffmpeg:  ffdemux_au: FFmpeg SUN AU format demuxer
+ffmpeg:  ffdemux_asf: FFmpeg ASF format demuxer
+ffmpeg:  ffdemux_ape: FFmpeg Monkey's Audio demuxer
+ffmpeg: fftype_apc: no extensions
+ffmpeg:  ffdemux_apc: FFmpeg CRYO APC format demuxer
+ffmpeg: fftype_anm: no extensions
+ffmpeg:  ffdemux_anm: FFmpeg Deluxe Paint Animation demuxer
+ffmpeg:  ffdemux_amr: FFmpeg 3GPP AMR file format demuxer
+ffmpeg:  ffdemux_aiff: FFmpeg Audio IFF demuxer
+ffmpeg: fftype_aea: aea
+ffmpeg:  ffdemux_aea: FFmpeg MD STUDIO audio demuxer
+ffmpeg:  ffdec_xsub: FFmpeg XSUB decoder
+ffmpeg:  ffdec_pgssub: FFmpeg HDMV Presentation Graphic Stream subtitles decoder
+ffmpeg:  ffdec_dvdsub: FFmpeg DVD subtitles decoder
+ffmpeg:  ffdec_dvbsub: FFmpeg DVB subtitles decoder
+ffmpeg:  ffdec_adpcm_yamaha: FFmpeg ADPCM Yamaha decoder
+ffmpeg:  ffdec_adpcm_xa: FFmpeg ADPCM CDROM XA decoder
+ffmpeg:  ffdec_adpcm_thp: FFmpeg ADPCM Nintendo Gamecube THP decoder
+ffmpeg:  ffdec_adpcm_swf: FFmpeg ADPCM Shockwave Flash decoder
+ffmpeg:  ffdec_adpcm_sbpro_4: FFmpeg ADPCM Sound Blaster Pro 4-bit decoder
+ffmpeg:  ffdec_adpcm_sbpro_3: FFmpeg ADPCM Sound Blaster Pro 2.6-bit decoder
+ffmpeg:  ffdec_adpcm_sbpro_2: FFmpeg ADPCM Sound Blaster Pro 2-bit decoder
+ffmpeg:  ffdec_adpcm_ms: FFmpeg ADPCM Microsoft decoder
+ffmpeg:  ffdec_adpcm_ima_ws: FFmpeg ADPCM IMA Westwood decoder
+ffmpeg:  ffdec_adpcm_ima_wav: FFmpeg ADPCM IMA WAV decoder
+ffmpeg:  ffdec_adpcm_ima_smjpeg: FFmpeg ADPCM IMA Loki SDL MJPEG decoder
+ffmpeg:  ffdec_adpcm_ima_qt: FFmpeg ADPCM IMA QuickTime decoder
+ffmpeg:  ffdec_adpcm_ima_iss: FFmpeg ADPCM IMA Funcom ISS decoder
+ffmpeg:  ffdec_adpcm_ima_ea_sead: FFmpeg ADPCM IMA Electronic Arts SEAD decoder
+ffmpeg:  ffdec_adpcm_ima_ea_eacs: FFmpeg ADPCM IMA Electronic Arts EACS decoder
+ffmpeg:  ffdec_adpcm_ima_dk4: FFmpeg ADPCM IMA Duck DK4 decoder
+ffmpeg:  ffdec_adpcm_ima_dk3: FFmpeg ADPCM IMA Duck DK3 decoder
+ffmpeg:  ffdec_adpcm_ima_amv: FFmpeg ADPCM IMA AMV decoder
+ffmpeg:  ffdec_g726: FFmpeg G.726 ADPCM decoder
+ffmpeg:  ffdec_adpcm_ea_xas: FFmpeg ADPCM Electronic Arts XAS decoder
+ffmpeg:  ffdec_adpcm_ea_r3: FFmpeg ADPCM Electronic Arts R3 decoder
+ffmpeg:  ffdec_adpcm_ea_r2: FFmpeg ADPCM Electronic Arts R2 decoder
+ffmpeg:  ffdec_adpcm_ea_r1: FFmpeg ADPCM Electronic Arts R1 decoder
+ffmpeg:  ffdec_adpcm_ea_maxis_xa: FFmpeg ADPCM Electronic Arts Maxis CDROM XA decoder
+ffmpeg:  ffdec_adpcm_ea: FFmpeg ADPCM Electronic Arts decoder
+ffmpeg:  ffdec_adpcm_ct: FFmpeg ADPCM Creative Technology decoder
+ffmpeg:  ffdec_adpcm_adx: FFmpeg SEGA CRI ADX ADPCM decoder
+ffmpeg:  ffdec_adpcm_4xm: FFmpeg ADPCM 4X Movie decoder
+ffmpeg:  ffdec_xan_dpcm: FFmpeg DPCM Xan decoder
+ffmpeg:  ffdec_sol_dpcm: FFmpeg DPCM Sol decoder
+ffmpeg:  ffdec_roq_dpcm: FFmpeg DPCM id RoQ decoder
+ffmpeg:  ffdec_interplay_dpcm: FFmpeg DPCM Interplay decoder
+ffmpeg:  ffdec_pcm_bluray: FFmpeg PCM signed 16|20|24-bit big-endian for Blu-ray media decoder
+ffmpeg:  ffdec_ws_snd1: FFmpeg Westwood Audio (SND1) decoder
+ffmpeg:  ffdec_wmavoice: FFmpeg Windows Media Audio Voice decoder
+ffmpeg:  ffdec_wmav2: FFmpeg Windows Media Audio 2 decoder
+ffmpeg:  ffdec_wmav1: FFmpeg Windows Media Audio 1 decoder
+ffmpeg:  ffdec_wmapro: FFmpeg Windows Media Audio 9 Professional decoder
+ffmpeg:  ffdec_vmdaudio: FFmpeg Sierra VMD audio decoder
+ffmpeg:  ffdec_twinvq: FFmpeg VQF TwinVQ decoder
+ffmpeg:  ffdec_tta: FFmpeg True Audio (TTA) decoder
+ffmpeg:  ffdec_truespeech: FFmpeg DSP Group TrueSpeech decoder
+ffmpeg:  ffdec_truehd: FFmpeg TrueHD decoder
+ffmpeg:  ffdec_sonic: FFmpeg Sonic decoder
+ffmpeg:  ffdec_smackaud: FFmpeg Smacker audio decoder
+ffmpeg:  ffdec_sipr: FFmpeg RealAudio SIPR / ACELP.NET decoder
+ffmpeg:  ffdec_shorten: FFmpeg Shorten decoder
+ffmpeg:  ffdec_real_288: FFmpeg RealAudio 2.0 (28.8K) decoder
+ffmpeg:  ffdec_real_144: FFmpeg RealAudio 1.0 (14.4K) decoder
+ffmpeg:  ffdec_qdm2: FFmpeg QDesign Music Codec 2 decoder
+ffmpeg:  ffdec_qcelp: FFmpeg QCELP / PureVoice decoder
+ffmpeg:  ffdec_nellymoser: FFmpeg Nellymoser Asao decoder
+ffmpeg:  ffdec_mpc8: FFmpeg Musepack SV8 decoder
+ffmpeg:  ffdec_mpc7: FFmpeg Musepack SV7 decoder
+ffmpeg:  ffdec_mp3on4: FFmpeg MP3onMP4 decoder
+ffmpeg:  ffdec_mp3adu: FFmpeg ADU (Application Data Unit) MP3 (MPEG audio layer 3) decoder
+ffmpeg:  ffdec_mp3: FFmpeg MP3 (MPEG audio layer 3) decoder
+ffmpeg:  ffdec_mlp: FFmpeg MLP (Meridian Lossless Packing) decoder
+ffmpeg:  ffdec_mace6: FFmpeg MACE (Macintosh Audio Compression/Expansion) 6:1 decoder
+ffmpeg:  ffdec_mace3: FFmpeg MACE (Macintosh Audio Compression/Expansion) 3:1 decoder
+ffmpeg:  ffdec_imc: FFmpeg IMC (Intel Music Coder) decoder
+ffmpeg:  ffdec_flac: FFmpeg FLAC (Free Lossless Audio Codec) decoder
+ffmpeg:  ffdec_eac3: FFmpeg ATSC A/52B (AC-3, E-AC-3) decoder
+ffmpeg:  ffdec_dsicinaudio: FFmpeg Delphine Software International CIN audio decoder
+ffmpeg:  ffdec_dca: FFmpeg DCA (DTS Coherent Acoustics) decoder
+ffmpeg:  ffdec_cook: FFmpeg COOK decoder
+ffmpeg:  ffdec_binkaudio_rdft: FFmpeg Bink Audio (RDFT) decoder
+ffmpeg:  ffdec_binkaudio_dct: FFmpeg Bink Audio (DCT) decoder
+ffmpeg:  ffdec_atrac3: FFmpeg Atrac 3 (Adaptive TRansform Acoustic Coding 3) decoder
+ffmpeg:  ffdec_atrac1: FFmpeg Atrac 1 (Adaptive TRansform Acoustic Coding) decoder
+ffmpeg:  ffdec_ape: FFmpeg Monkey's Audio decoder
+ffmpeg:  ffdec_amrnb: FFmpeg Adaptive Multi-Rate NarrowBand decoder
+ffmpeg:  ffdec_als: FFmpeg MPEG-4 Audio Lossless Coding (ALS) decoder
+ffmpeg:  ffdec_alac: FFmpeg ALAC (Apple Lossless Audio Codec) decoder
+ffmpeg:  ffdec_ac3: FFmpeg ATSC A/52A (AC-3) decoder
+ffmpeg:  ffdec_aac: FFmpeg Advanced Audio Coding decoder
+ffmpeg:  ffdec_zmbv: FFmpeg Zip Motion Blocks Video decoder
+ffmpeg:  ffdec_zlib: FFmpeg LCL (LossLess Codec Library) ZLIB decoder
+ffmpeg:  ffdec_yop: FFmpeg Psygnosis YOP Video decoder
+ffmpeg:  ffdec_xl: FFmpeg Miro VideoXL decoder
+ffmpeg:  ffdec_xan_wc3: FFmpeg Wing Commander III / Xan decoder
+ffmpeg:  ffdec_wnv1: FFmpeg Winnov WNV1 decoder
+ffmpeg:  ffdec_wmv3: FFmpeg Windows Media Video 9 decoder
+ffmpeg:  ffdec_wmv2: FFmpeg Windows Media Video 8 decoder
+ffmpeg:  ffdec_wmv1: FFmpeg Windows Media Video 7 decoder
+ffmpeg:  ffdec_vqavideo: FFmpeg Westwood Studios VQA (Vector Quantized Animation) video decoder
+ffmpeg:  ffdec_vp6f: FFmpeg On2 VP6 (Flash version) decoder
+ffmpeg:  ffdec_vp6a: FFmpeg On2 VP6 (Flash version, with alpha channel) decoder
+ffmpeg:  ffdec_vp6: FFmpeg On2 VP6 decoder
+ffmpeg:  ffdec_vp5: FFmpeg On2 VP5 decoder
+ffmpeg:  ffdec_vp3: FFmpeg On2 VP3 decoder
+ffmpeg:  ffdec_vmnc: FFmpeg VMware Screen Codec / VMware Video decoder
+ffmpeg:  ffdec_vmdvideo: FFmpeg Sierra VMD video decoder
+ffmpeg:  ffdec_vcr1: FFmpeg ATI VCR1 decoder
+ffmpeg:  ffdec_vc1: FFmpeg SMPTE VC-1 decoder
+ffmpeg:  ffdec_vb: FFmpeg Beam Software VB decoder
+ffmpeg:  ffdec_v210x: FFmpeg Uncompressed 4:2:2 10-bit decoder
+ffmpeg:  ffdec_v210: FFmpeg Uncompressed 4:2:2 10-bit decoder
+ffmpeg:  ffdec_ultimotion: FFmpeg IBM UltiMotion decoder
+ffmpeg:  ffdec_txd: FFmpeg Renderware TXD (TeXture Dictionary) image decoder
+ffmpeg:  ffdec_camtasia: FFmpeg TechSmith Screen Capture Codec decoder
+ffmpeg:  ffdec_truemotion2: FFmpeg Duck TrueMotion 2.0 decoder
+ffmpeg:  ffdec_truemotion1: FFmpeg Duck TrueMotion 1.0 decoder
+ffmpeg:  ffdec_tmv: FFmpeg 8088flex TMV decoder
+ffmpeg:  ffdec_tiff: FFmpeg TIFF image decoder
+ffmpeg:  ffdec_tiertexseqvideo: FFmpeg Tiertex Limited SEQ video decoder
+ffmpeg:  ffdec_thp: FFmpeg Nintendo Gamecube THP video decoder
+ffmpeg:  ffdec_targa: FFmpeg Truevision Targa image decoder
+ffmpeg:  ffdec_svq3: FFmpeg Sorenson Vector Quantizer 3 / Sorenson Video 3 / SVQ3 decoder
+ffmpeg:  ffdec_svq1: FFmpeg Sorenson Vector Quantizer 1 / Sorenson Video 1 / SVQ1 decoder
+ffmpeg:  ffdec_sunrast: FFmpeg Sun Rasterfile image decoder
+ffmpeg:  ffdec_sp5x: FFmpeg Sunplus JPEG (SP5X) decoder
+ffmpeg:  ffdec_snow: FFmpeg Snow decoder
+ffmpeg:  ffdec_smc: FFmpeg QuickTime Graphics (SMC) decoder
+ffmpeg:  ffdec_smackvid: FFmpeg Smacker video decoder
+ffmpeg:  ffdec_sgi: FFmpeg SGI image decoder
+ffmpeg:  ffdec_rv40: FFmpeg RealVideo 4.0 decoder
+ffmpeg:  ffdec_rv30: FFmpeg RealVideo 3.0 decoder
+ffmpeg:  ffdec_rv20: FFmpeg RealVideo 2.0 decoder
+ffmpeg:  ffdec_rv10: FFmpeg RealVideo 1.0 decoder
+ffmpeg:  ffdec_rpza: FFmpeg QuickTime video (RPZA) decoder
+ffmpeg:  ffdec_roqvideo: FFmpeg id RoQ video decoder
+ffmpeg:  ffdec_rl2: FFmpeg RL2 video decoder
+ffmpeg:  ffdec_r210: FFmpeg Uncompressed RGB 10-bit decoder
+ffmpeg:  ffdec_qtrle: FFmpeg QuickTime Animation (RLE) video decoder
+ffmpeg:  ffdec_qpeg: FFmpeg Q-team QPEG decoder
+ffmpeg:  ffdec_qdraw: FFmpeg Apple QuickDraw decoder
+ffmpeg:  ffdec_ptx: FFmpeg V.Flash PTX image decoder
+ffmpeg:  ffdec_ppm: FFmpeg PPM (Portable PixelMap) image decoder
+ffmpeg:  ffdec_png: FFmpeg PNG image decoder
+ffmpeg:  ffdec_pgmyuv: FFmpeg PGMYUV (Portable GrayMap YUV) image decoder
+ffmpeg:  ffdec_pgm: FFmpeg PGM (Portable GrayMap) image decoder
+ffmpeg:  ffdec_pcx: FFmpeg PC Paintbrush PCX image decoder
+ffmpeg:  ffdec_pbm: FFmpeg PBM (Portable BitMap) image decoder
+ffmpeg:  ffdec_pam: FFmpeg PAM (Portable AnyMap) image decoder
+ffmpeg:  ffdec_nuv: FFmpeg NuppelVideo/RTJPEG decoder
+ffmpeg:  ffdec_mszh: FFmpeg LCL (LossLess Codec Library) MSZH decoder
+ffmpeg:  ffdec_msvideo1: FFmpeg Microsoft Video 1 decoder
+ffmpeg:  ffdec_msrle: FFmpeg Microsoft RLE decoder
+ffmpeg:  ffdec_msmpeg4: FFmpeg MPEG-4 part 2 Microsoft variant version 3 decoder
+ffmpeg:  ffdec_msmpeg4v2: FFmpeg MPEG-4 part 2 Microsoft variant version 2 decoder
+ffmpeg:  ffdec_msmpeg4v1: FFmpeg MPEG-4 part 2 Microsoft variant version 1 decoder
+ffmpeg:  ffdec_mpegvideo: FFmpeg MPEG-1 video decoder
+ffmpeg:  ffdec_mpeg4: FFmpeg MPEG-4 part 2 decoder
+ffmpeg:  ffdec_mpeg2video: FFmpeg MPEG-2 video decoder
+ffmpeg:  ffdec_motionpixels: FFmpeg Motion Pixels video decoder
+ffmpeg:  ffdec_mmvideo: FFmpeg American Laser Games MM Video decoder
+ffmpeg:  ffdec_mjpegb: FFmpeg Apple MJPEG-B decoder
+ffmpeg:  ffdec_mjpeg: FFmpeg MJPEG (Motion JPEG) decoder
+ffmpeg:  ffdec_mimic: FFmpeg Mimic decoder
+ffmpeg:  ffdec_mdec: FFmpeg Sony PlayStation MDEC (Motion DECoder) decoder
+ffmpeg:  ffdec_loco: FFmpeg LOCO decoder
+ffmpeg:  ffdec_kmvc: FFmpeg Karl Morton's video codec decoder
+ffmpeg:  ffdec_kgv1: FFmpeg Kega Game Video decoder
+ffmpeg:  ffdec_jpegls: FFmpeg JPEG-LS decoder
+ffmpeg:  ffdec_interplayvideo: FFmpeg Interplay MVE video decoder
+ffmpeg:  ffdec_indeo5: FFmpeg Intel Indeo Video Interactive 5 decoder
+ffmpeg:  ffdec_indeo3: FFmpeg Intel Indeo 3 decoder
+ffmpeg:  ffdec_indeo2: FFmpeg Intel Indeo 2 decoder
+ffmpeg:  ffdec_iff_ilbm: FFmpeg IFF ILBM decoder
+ffmpeg:  ffdec_iff_byterun1: FFmpeg IFF ByteRun1 decoder
+ffmpeg:  ffdec_idcinvideo: FFmpeg id Quake II CIN video decoder
+ffmpeg:  ffdec_huffyuv: FFmpeg Huffyuv / HuffYUV decoder
+ffmpeg:  ffdec_h264: FFmpeg H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 decoder
+ffmpeg:  ffdec_h263i: FFmpeg Intel H.263 decoder
+ffmpeg:  ffdec_h263: FFmpeg H.263 / H.263-1996, H.263+ / H.263-1998 / H.263 version 2 decoder
+ffmpeg:  ffdec_h261: FFmpeg H.261 decoder
+ffmpeg:  ffdec_FRWU: FFmpeg Forward Uncompressed decoder
+ffmpeg:  ffdec_fraps: FFmpeg Fraps decoder
+ffmpeg:  ffdec_4xm: FFmpeg 4X Movie decoder
+ffmpeg:  ffdec_flv: FFmpeg Flash Video (FLV) / Sorenson Spark / Sorenson H.263 decoder
+ffmpeg:  ffdec_flic: FFmpeg Autodesk Animator Flic video decoder
+ffmpeg:  ffdec_flashsv: FFmpeg Flash Screen Video v1 decoder
+ffmpeg:  ffdec_ffvhuff: FFmpeg Huffyuv FFmpeg variant decoder
+ffmpeg:  ffdec_ffv1: FFmpeg FFmpeg video codec #1 decoder
+ffmpeg:  ffdec_escape124: FFmpeg Escape 124 decoder
+ffmpeg:  ffdec_8svx_fib: FFmpeg 8SVX fibonacci decoder
+ffmpeg:  ffdec_8svx_exp: FFmpeg 8SVX exponential decoder
+ffmpeg:  ffdec_8bps: FFmpeg QuickTime 8BPS video decoder
+ffmpeg:  ffdec_eatqi: FFmpeg Electronic Arts TQI Video decoder
+ffmpeg:  ffdec_eatgv: FFmpeg Electronic Arts TGV video decoder
+ffmpeg:  ffdec_eatgq: FFmpeg Electronic Arts TGQ video decoder
+ffmpeg:  ffdec_eamad: FFmpeg Electronic Arts Madcow Video decoder
+ffmpeg:  ffdec_eacmv: FFmpeg Electronic Arts CMV video decoder
+ffmpeg:  ffdec_dxa: FFmpeg Feeble Files/ScummVM DXA decoder
+ffmpeg:  ffdec_dvvideo: FFmpeg DV (Digital Video) decoder
+ffmpeg:  ffdec_dsicinvideo: FFmpeg Delphine Software International CIN video decoder
+ffmpeg:  ffdec_dpx: FFmpeg DPX image decoder
+ffmpeg:  ffdec_dnxhd: FFmpeg VC3/DNxHD decoder
+ffmpeg:  ffdec_cyuv: FFmpeg Creative YUV (CYUV) decoder
+ffmpeg:  ffdec_camstudio: FFmpeg CamStudio decoder
+ffmpeg:  ffdec_cljr: FFmpeg Cirrus Logic AccuPak decoder
+ffmpeg:  ffdec_cinepak: FFmpeg Cinepak decoder
+ffmpeg:  ffdec_cdgraphics: FFmpeg CD Graphics video decoder
+ffmpeg:  ffdec_cavs: FFmpeg Chinese AVS video (AVS1-P2, JiZhun profile) decoder
+ffmpeg:  ffdec_c93: FFmpeg Interplay C93 decoder
+ffmpeg:  ffdec_bmp: FFmpeg BMP image decoder
+ffmpeg:  ffdec_binkvideo: FFmpeg Bink video decoder
+ffmpeg:  ffdec_bfi: FFmpeg Brute Force & Ignorance decoder
+ffmpeg:  ffdec_bethsoftvid: FFmpeg Bethesda VID video decoder
+ffmpeg:  ffdec_avs: FFmpeg AVS (Audio Video Standard) video decoder
+ffmpeg:  ffdec_aura2: FFmpeg Auravision Aura 2 decoder
+ffmpeg:  ffdec_aura: FFmpeg Auravision AURA decoder
+ffmpeg:  ffdec_asv2: FFmpeg ASUS V2 decoder
+ffmpeg:  ffdec_asv1: FFmpeg ASUS V1 decoder
+ffmpeg:  ffdec_anm: FFmpeg Deluxe Paint Animation decoder
+ffmpeg:  ffdec_amv: FFmpeg AMV Video decoder
+ffmpeg:  ffdec_aasc: FFmpeg Autodesk RLE decoder
+ffmpeg:  ffenc_xsub: FFmpeg DivX subtitles (XSUB) encoder
+ffmpeg:  ffenc_dvdsub: FFmpeg DVD subtitles encoder
+ffmpeg:  ffenc_dvbsub: FFmpeg DVB subtitles encoder
+ffmpeg:  ffenc_adpcm_yamaha: FFmpeg ADPCM Yamaha encoder
+ffmpeg:  ffenc_adpcm_swf: FFmpeg ADPCM Shockwave Flash encoder
+ffmpeg:  ffenc_adpcm_ms: FFmpeg ADPCM Microsoft encoder
+ffmpeg:  ffenc_adpcm_ima_wav: FFmpeg ADPCM IMA WAV encoder
+ffmpeg:  ffenc_adpcm_ima_qt: FFmpeg ADPCM IMA QuickTime encoder
+ffmpeg:  ffenc_g726: FFmpeg G.726 ADPCM encoder
+ffmpeg:  ffenc_adpcm_adx: FFmpeg SEGA CRI ADX ADPCM encoder
+ffmpeg:  ffenc_roq_dpcm: FFmpeg id RoQ DPCM encoder
+ffmpeg:  ffenc_wmav2: FFmpeg Windows Media Audio 2 encoder
+ffmpeg:  ffenc_wmav1: FFmpeg Windows Media Audio 1 encoder
+ffmpeg:  ffenc_sonicls: FFmpeg Sonic lossless encoder
+ffmpeg:  ffenc_sonic: FFmpeg Sonic encoder
+ffmpeg:  ffenc_nellymoser: FFmpeg Nellymoser Asao encoder
+ffmpeg:  ffenc_mp2: FFmpeg MP2 (MPEG audio layer 2) encoder
+ffmpeg:  ffenc_alac: FFmpeg ALAC (Apple Lossless Audio Codec) encoder
+ffmpeg:  ffenc_ac3: FFmpeg ATSC A/52A (AC-3) encoder
+ffmpeg:  ffenc_aac: FFmpeg Advanced Audio Coding encoder
+ffmpeg:  ffenc_zmbv: FFmpeg Zip Motion Blocks Video encoder
+ffmpeg:  ffenc_wmv2: FFmpeg Windows Media Video 8 encoder
+ffmpeg:  ffenc_wmv1: FFmpeg Windows Media Video 7 encoder
+ffmpeg:  ffenc_v210: FFmpeg Uncompressed 4:2:2 10-bit encoder
+ffmpeg:  ffenc_tiff: FFmpeg TIFF image encoder
+ffmpeg:  ffenc_targa: FFmpeg Truevision Targa image encoder
+ffmpeg:  ffenc_svq1: FFmpeg Sorenson Vector Quantizer 1 / Sorenson Video 1 / SVQ1 encoder
+ffmpeg:  ffenc_snow: FFmpeg Snow encoder
+ffmpeg:  ffenc_sgi: FFmpeg SGI image encoder
+ffmpeg:  ffenc_rv20: FFmpeg RealVideo 2.0 encoder
+ffmpeg:  ffenc_rv10: FFmpeg RealVideo 1.0 encoder
+ffmpeg:  ffenc_roqvideo: FFmpeg id RoQ video encoder
+ffmpeg:  ffenc_qtrle: FFmpeg QuickTime Animation (RLE) video encoder
+ffmpeg:  ffenc_ppm: FFmpeg PPM (Portable PixelMap) image encoder
+ffmpeg:  ffenc_png: FFmpeg PNG image encoder
+ffmpeg:  ffenc_pgmyuv: FFmpeg PGMYUV (Portable GrayMap YUV) image encoder
+ffmpeg:  ffenc_pgm: FFmpeg PGM (Portable GrayMap) image encoder
+ffmpeg:  ffenc_pcx: FFmpeg PC Paintbrush PCX image encoder
+ffmpeg:  ffenc_pbm: FFmpeg PBM (Portable BitMap) image encoder
+ffmpeg:  ffenc_pam: FFmpeg PAM (Portable AnyMap) image encoder
+ffmpeg:  ffenc_msmpeg4: FFmpeg MPEG-4 part 2 Microsoft variant version 3 encoder
+ffmpeg:  ffenc_msmpeg4v2: FFmpeg MPEG-4 part 2 Microsoft variant version 2 encoder
+ffmpeg:  ffenc_msmpeg4v1: FFmpeg MPEG-4 part 2 Microsoft variant version 1 encoder
+ffmpeg:  ffenc_mpeg4: FFmpeg MPEG-4 part 2 encoder
+ffmpeg:  ffenc_mpeg2video: FFmpeg MPEG-2 video encoder
+ffmpeg:  ffenc_mpeg1video: FFmpeg MPEG-1 video encoder
+ffmpeg:  ffenc_mjpeg: FFmpeg MJPEG (Motion JPEG) encoder
+ffmpeg:  ffenc_ljpeg: FFmpeg Lossless JPEG encoder
+ffmpeg:  ffenc_jpegls: FFmpeg JPEG-LS encoder
+ffmpeg:  ffenc_huffyuv: FFmpeg Huffyuv / HuffYUV encoder
+ffmpeg:  ffenc_h263p: FFmpeg H.263+ / H.263-1998 / H.263 version 2 encoder
+ffmpeg:  ffenc_h263: FFmpeg H.263 / H.263-1996 encoder
+ffmpeg:  ffenc_h261: FFmpeg H.261 encoder
+ffmpeg:  ffenc_flv: FFmpeg Flash Video (FLV) / Sorenson Spark / Sorenson H.263 encoder
+ffmpeg:  ffenc_flashsv: FFmpeg Flash Screen Video encoder
+ffmpeg:  ffenc_ffvhuff: FFmpeg Huffyuv FFmpeg variant encoder
+ffmpeg:  ffenc_ffv1: FFmpeg FFmpeg video codec #1 encoder
+ffmpeg:  ffenc_dvvideo: FFmpeg DV (Digital Video) encoder
+ffmpeg:  ffenc_dnxhd: FFmpeg VC3/DNxHD encoder
+ffmpeg:  ffenc_bmp: FFmpeg BMP image encoder
+ffmpeg:  ffenc_asv2: FFmpeg ASUS V2 encoder
+ffmpeg:  ffenc_asv1: FFmpeg ASUS V1 encoder
+equalizer:  equalizer-10bands: 10 Band Equalizer
+equalizer:  equalizer-3bands: 3 Band Equalizer
+equalizer:  equalizer-nbands: N Band Equalizer
+effectv:  rippletv: RippleTV effect
+effectv:  streaktv: StreakTV effect
+effectv:  radioactv: RadioacTV effect
+effectv:  optv: OpTV effect
+effectv:  quarktv: QuarkTV effect
+effectv:  revtv: RevTV effect
+effectv:  vertigotv: VertigoTV effect
+effectv:  shagadelictv: ShagadelicTV
+effectv:  warptv: WarpTV effect
+effectv:  dicetv: DiceTV effect
+effectv:  agingtv: AgingTV effect
+effectv:  edgetv: EdgeTV effect
+dvdsub:  dvdsubparse: DVD subtitle parser
+dvdsub:  dvdsubdec: DVD subtitle decoder
+dvdspu:  dvdspu: GStreamer Sub-picture Overlay
+dvdlpcmdec:  dvdlpcmdec: DVD LPCM Audio decoder
+dtmf:  rtpdtmfdepay: RTP DTMF packet depayloader
+dtmf:  rtpdtmfsrc: RTP DTMF packet generator
+dtmf:  dtmfsrc: DTMF tone generator
+dtmf:  dtmfdetect: DTMF detector element
+dshowsinkwrapper:  dshowvideosink: DirectShow video sink
+dshowsrcwrapper:  dshowvideosrc: DirectShow video capture source
+dshowsrcwrapper:  dshowaudiosrc: Directshow audio capture source
+dshowdecwrapper:  dshowvdec_divx3: DirectShow DIVX 3.0 Video Decoder Wrapper
+dshowdecwrapper:  dshowvdec_divx4: DirectShow DIVX 4.0 Video Decoder Wrapper
+dshowdecwrapper:  dshowvdec_divx5: DirectShow DIVX 5.0 Video Decoder Wrapper
+dshowdecwrapper:  dshowvdec_xvid: DirectShow XVID Video Decoder Wrapper
+dshowdecwrapper:  dshowvdec_mpeg4: DirectShow MPEG-4 Video Decoder Wrapper
+dshowdecwrapper:  dshowvdec_mpeg1: DirectShow MPEG-1 Video Decoder Wrapper
+dshowdecwrapper:  dshowvdec_msmpeg4: DirectShow Microsoft ISO MPEG-4 version 1.1 Decoder Wrapper
+dshowdecwrapper:  dshowvdec_msmpeg43: DirectShow Microsoft ISO MPEG-4 version 3 Decoder Wrapper
+dshowdecwrapper:  dshowvdec_msmpeg42: DirectShow Microsoft ISO MPEG-4 version 2 Decoder Wrapper
+dshowdecwrapper:  dshowvdec_msmpeg41: DirectShow Microsoft ISO MPEG-4 version 1 Decoder Wrapper
+dshowdecwrapper:  dshowvdec_cinepak: DirectShow Cinepack Decoder Wrapper
+dshowdecwrapper:  dshowvdec_wmva: DirectShow Windows Media Video 9 Advanced Decoder Wrapper
+dshowdecwrapper:  dshowvdec_wmvp: DirectShow Windows Media Video 9 Image Decoder Wrapper
+dshowdecwrapper:  dshowvdec_wmv3: DirectShow Windows Media Video 9 Decoder Wrapper
+dshowdecwrapper:  dshowvdec_wmv2: DirectShow Windows Media Video 8 Decoder Wrapper
+dshowdecwrapper:  dshowvdec_wmv1: DirectShow Windows Media Video 7 Decoder Wrapper
+dshowdecwrapper:  dshowadec_mpeg_1_2: DirectShow MPEG Layer 1,2 Audio Decoder Wrapper
+dshowdecwrapper:  dshowadec_mp3: DirectShow MPEG Layer 3 Audio Decoder Wrapper
+dshowdecwrapper:  dshowadec_wms: DirectShow Windows Media Audio Voice v9 Decoder Wrapper
+dshowdecwrapper:  dshowadec_wma4: DirectShow Windows Media Audio 9 Lossless Decoder Wrapper
+dshowdecwrapper:  dshowadec_wma3: DirectShow Windows Media Audio 9 Professional Decoder Wrapper
+dshowdecwrapper:  dshowadec_wma2: DirectShow Windows Media Audio 8 Decoder Wrapper
+dshowdecwrapper:  dshowadec_wma1: DirectShow Windows Media Audio 7 Decoder Wrapper
+directsoundsrc:  directsoundsrc: Direct Sound Audio Src
+directsound:  directsoundsink: Direct Sound Audio Sink
+directdraw:  directdrawsink: Direct Draw Video Sink
+deinterlace:  deinterlace: Deinterlacer
+uridecodebin:  uridecodebin: URI Decoder
+uridecodebin:  decodebin2: Decoder Bin
+decodebin:  decodebin: Decoder Bin
+debug:  testsink: Test plugin
+debug:  taginject: TagInject
+debug:  progressreport: Progress report
+debug:  pushfilesrc: Push File Source
+debug:  navseek: Seek based on left-right arrows
+debug:  rndbuffersize: Random buffer size
+debug:  breakmydata: Break my data
+cutter:  cutter: Audio cutter
+coreindexers:  memindex: A index that stores entries in memory
+coreelements:  multiqueue: MultiQueue
+coreelements:  typefind: TypeFind
+coreelements:  tee: Tee pipe fitting
+coreelements:  filesink: File Sink
+coreelements:  queue2: Queue 2
+coreelements:  queue: Queue
+coreelements:  identity: Identity
+coreelements:  filesrc: File Source
+coreelements:  fdsink: Filedescriptor Sink
+coreelements:  fdsrc: Filedescriptor Source
+coreelements:  fakesink: Fake Sink
+coreelements:  fakesrc: Fake Source
+coreelements:  capsfilter: CapsFilter
+celt:  celtdec: Celt audio decoder
+celt:  celtenc: Celt audio encoder
+cdxaparse:  vcdparse: (S)VCD stream parser
+cdxaparse:  cdxaparse: (S)VCD parser
+camerabin:  camerabin: Camera Bin
+cairo:  cairorender: Cairo encoder
+cairo:  cairotimeoverlay: Time overlay
+cairo:  cairotextoverlay: Text overlay
+bz2:  bz2dec: BZ2 decoder
+bz2:  bz2enc: BZ2 encoder
+bayer:  bayer2rgb: Bayer to RGB decoder for cameras
+avi:  avisubtitle: Avi subtitle parser
+avi:  avimux: Avi muxer
+avi:  avidemux: Avi demuxer
+autodetect:  autoaudiosrc: Auto audio source
+autodetect:  autoaudiosink: Auto audio sink
+autodetect:  autovideosrc: Auto video source
+autodetect:  autovideosink: Auto video sink
+autoconvert:  autoconvert: Select convertor based on caps
+auparse:  auparse: AU audio demuxer
+audiotestsrc:  audiotestsrc: Audio test source
+audioresample:  audioresample: Audio resampler
+audiorate:  audiorate: Audio rate adjuster
+audiofx:  audioecho: Audio echo
+audiofx:  audiofirfilter: Audio FIR filter
+audiofx:  audiowsincband: Band pass & band reject filter
+audiofx:  audiowsinclimit: Low pass & high pass filter
+audiofx:  audioiirfilter: Audio IIR filter
+audiofx:  audiochebband: Band pass & band reject filter
+audiofx:  audiocheblimit: Low pass & high pass filter
+audiofx:  audiodynamic: Dynamic range controller
+audiofx:  audioamplify: Audio amplifier
+audiofx:  audiokaraoke: AudioKaraoke
+audiofx:  audioinvert: Audio inversion
+audiofx:  audiopanorama: Stereo positioning
+audioconvert:  audioconvert: Audio converter
+asfmux:  asfparse: ASF parser
+asfmux:  rtpasfpay: RTP ASF payloader
+asfmux:  asfmux: ASF muxer
+asf:  rtpasfdepay: RTP ASF packet depayloader
+asf:  rtspwms: WMS RTSP Extension
+asf:  asfdemux: ASF Demuxer
+app:  appsink: AppSink
+app:  appsrc: AppSrc
+apetag:  apedemux: APE tag demuxer
+alphacolor:  alphacolor: Alpha color filter
+alpha:  alpha: Alpha filter
+alaw:  alawdec: A Law audio decoder
+alaw:  alawenc: A Law audio encoder
+aiff:  aiffmux: AIFF audio muxer
+aiff:  aiffparse: AIFF audio demuxer
+adder:  adder: Adder
+gnonlin:  gnlfilesource: GNonLin File Source
+gnonlin:  gnlurisource: GNonLin URI Source
+gnonlin:  gnloperation: GNonLin Operation
+gnonlin:  gnlcomposition: GNonLin Composition
+gnonlin:  gnlsource: GNonLin Source
+fsvideoanyrate:  fsvideoanyrate: Videoanyrate element
+fsselector:  fsselector: Element selector
+fsrtpconference:  fsrtpconference: Farsight RTP Conference
+fsrtcpfilter:  fsrtcpfilter: RTCP Filter element
+fsfunnel:  fsfunnel: Farsight Funnel pipe fitting
+staticelements:  bin: Generic bin
+staticelements:  pipeline: Pipeline object
+
+Total count: 155 plugins, 996 features
