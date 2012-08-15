@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GStreamer-test", "GStreamer-test.vcxproj", "{46E97CD1-D85F-47BC-B5D9-B07977DA80B3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libgstpave", "..\GStreamer-PaVE\GStreamer-PaVE.vcxproj", "{2FB008BC-4537-4090-AD65-9806D736E349}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +15,10 @@ Global
 		{46E97CD1-D85F-47BC-B5D9-B07977DA80B3}.Debug|Win32.Build.0 = Debug|Win32
 		{46E97CD1-D85F-47BC-B5D9-B07977DA80B3}.Release|Win32.ActiveCfg = Release|Win32
 		{46E97CD1-D85F-47BC-B5D9-B07977DA80B3}.Release|Win32.Build.0 = Release|Win32
+		{2FB008BC-4537-4090-AD65-9806D736E349}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2FB008BC-4537-4090-AD65-9806D736E349}.Debug|Win32.Build.0 = Debug|Win32
+		{2FB008BC-4537-4090-AD65-9806D736E349}.Release|Win32.ActiveCfg = Release|Win32
+		{2FB008BC-4537-4090-AD65-9806D736E349}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

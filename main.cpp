@@ -2,7 +2,6 @@
 #include <iostream>
 #include <Windows.h>
 #include <iostream>
-#include "pave/gstpaveparse.h"
 
 using namespace std;
 
@@ -54,6 +53,7 @@ int main (int   argc, char *argv[])
 	gst_init (&argc, &argv);
 
 	/* register pave plugin */
+	/*
 	_GstPaveParse pave_plugin;
 	if (!gst_plugin_register_static(GST_VERSION_MAJOR, GST_VERSION_MINOR,
 		"paveparse", "Parses PaVE (Parrot Video Encapsulation) streams into h.264.",
@@ -63,6 +63,7 @@ int main (int   argc, char *argv[])
 		cout << "ERROR: PaVE element factory plugin has not been correctly loaded" << endl;
 		return 1;
 	}
+	*/
 
 	/* create elements */
 	pipeline = gst_pipeline_new ("main_pipeline");
